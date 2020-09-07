@@ -1,0 +1,32 @@
+{
+	"title": "OpenMas信息机 中文指南",
+	"description": "瞎折腾的，记录OpenMas的常见问题和一些配置使用，爱用不用(*´艸｀) 吼吼吼",
+	"language": "zh",
+	"author": "Liangping", 
+	"gitbook": "2.6.7",	
+	"plugins": [
+		"fontsettings",
+		"prism",
+		"-highlight", 
+		"-sharing",
+		"-search",
+		"splitter",
+		"mermaid",
+		"expandable-chapters",
+		"back-to-top-button",
+		"tbfed-pagefooter"
+	],
+
+	"pluginsConfig": {
+		"tbfed-pagefooter":{
+			"copyright":"Copyright &copy Liangping 2018",
+			"modify_label": "该文件修订时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"fontSettings": {
+			"theme": "white",
+			"family": "msyh",
+			"size": 2
+		}
+	}
+}
