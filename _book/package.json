@@ -1,5 +1,37 @@
 {
   "dependencies": {
-    "gitbook-plugin-summary": "^1.0.0"
-  }
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-chapter-fold": "0.0.4",
+    "gitbook-plugin-custom-favicon": "0.0.4",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-fontsettings": "^2.0.0",
+    "gitbook-plugin-insert-logo": "^0.1.5",
+    "gitbook-plugin-mermaid": "0.0.9",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-prism-themes": "0.0.2",
+    "gitbook-plugin-search-plus": "^1.0.4-alpha-3",
+    "gitbook-plugin-sharing-plus": "0.0.2",
+    "gitbook-plugin-splitter": "0.0.8",
+    "gitbook-plugin-summary": "^1.0.0",
+    "gitbook-plugin-tbfed-pagefooter": "0.0.1",
+    "gitbook-plugin-toggle-chapters": "0.0.3"
+  },
+  "name": "yunmasbook",
+  "description": "这是一本简单的书。",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppleTu/yunmasbook.git"
+  },
+  "author": "liangping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AppleTu/yunmasbook/issues"
+  },
+  "homepage": "https://github.com/AppleTu/yunmasbook#readme"
 }

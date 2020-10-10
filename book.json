@@ -7,30 +7,64 @@
 	"plugins": [
 		"fontsettings",
 		"prism",
+		"prism-themes",
 		"-highlight", 
 		"-sharing",
+		"sharing-plus",
 		"-search",
+		"-lunr",
+		"search-plus",		
 		"splitter",
 		"mermaid",
 		"expandable-chapters",
+		"chapter-fold",
 		"back-to-top-button",
+		"insert-logo",
+		"custom-favicon",
 		"tbfed-pagefooter",
 		"toggle-chapters"
 	],
 
-	"pluginsConfig": {		
-		"theme-default": {
-			"showLevel": true
-	   },
-		"tbfed-pagefooter":{
-			"copyright":"Copyright &copy Liangping 2020",
-			"modify_label": "该文件修订时间：",
-			"modify_format": "YYYY-MM-DD HH:mm:ss"
-		},
+	"pluginsConfig": {
 		"fontSettings": {
 			"theme": "white",
 			"family": "msyh",
 			"size": 2
+		},
+		"theme-default": {
+			"showLevel": true
+	   },
+	   "insert-logo": {
+		"url": "/images/logo/faq-logo4.png",
+		"style": "background: none; max-height: 100px; min-height: 60px"
+	   },
+		"favicon": "./images/logo/favicon1.ico",
+		"disqus":{
+		   "shortName":"crifan"
+	   },
+	   	"prism":{
+		   "css":[
+			   "prism-themes/themes/prism-duotone-dark.css"
+		   ]
+	   },				
+		"sharing": {
+			"douban": false,
+			"facebook": false,
+			"google": true,
+			"pocket": false,
+			"qq": true,
+			"qzone": true,
+			"twitter": false,
+			"weibo": true,
+		 "all": [
+			  "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+			  "messenger","qq", "qzone","viber","whatsapp"
+		  ]
+		},
+		"tbfed-pagefooter":{
+			"copyright":"Copyright &copy Liangping 2020",
+			"modify_label": "该文件修订时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
 		}
 	}
 }
